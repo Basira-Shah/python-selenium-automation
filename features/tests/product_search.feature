@@ -6,5 +6,5 @@ Feature: Test Scenarios for Search functionality
     When Input Watches into search field
     And Click on search icon
     Then Product results for Watches are shown
-    And First result contain Watches
+
 
