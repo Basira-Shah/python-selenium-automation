@@ -1,0 +1,122 @@
+body {
+    background-image: url('img_13.png');
+    margin: 0px;
+}
+
+
+h1 {
+    color: red;
+}
+
+div.coffee_div {
+    background-image: url('bg_coffee_jpg');
+}
+
+h1{
+    font-size: 26px;
+}
+div {
+    padding-general: 5px;
+    background-color: white;
+}
+
+div#header {
+    background-color: #656e9c;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.section.lightblue {
+    background-color: #656e9c;
+}
+
+div#feedback h2 {
+    color: #474511;
+}
+
+h2,h3{
+    color: red
+}
+body {
+    background-image: url('bg.png');
+    margin: 0px;
+}
+
+div.coffee_div {
+    background-image: url('bg_coffee.jpg');
+}
+
+h1 {
+    font-size: 26px;
+}
+
+div {
+    padding: 5px;
+    margin-top: 25px;
+    background-color: white;
+}
+
+div#header {
+    background-color: #697a8c;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div.section. {
+    background-color: #dfe6ed;
+}
+
+div#feedback h2 {
+    color: #474511;
+}
+
+hr {
+    border-top: 1px solid white;
+    width: 800px;
+}
+
+td.dive_description {
+    text-align: center;
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: blue;
+}
+
+td.dive_description{
+    text-align: center;
+}
+
+div{
+    padding-top: 5px;
+}
+
+div.pasta_div {
+    background-image: url("img_12.png");
+}
+
+ div {
+    padding-top: 5px;
+     background-color: white;
+ }
+
+ body {
+     background-image: url("img_12.png");
+     margin: 0px;
+ }
+
+
