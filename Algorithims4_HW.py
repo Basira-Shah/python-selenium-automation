@@ -1,3 +1,4 @@
+# Algorithims4_HW
 # Below The Arithmetical Mean
 # When given a list, the program should return a list of all the elements below the original list’s arithmetical mean.
 # The arithmetical mean is the sum of all elements divided by the number of elements.
@@ -24,9 +25,12 @@
 # They can be equal to each other or different.
 # Example: [198, 3, 4, 9, 10, 9, 2], Return: 2, 3
 
-# def find_two_lowest_element(arr):
-#    arr.sort()
-#    return arr[:2]
+def find_two_lowest_element(arr):
+    arr.sort()
+    return arr[:2]
 
-# test_data = [198, 3, 4, 9, 10, 9, 2]  # [2, 3]
-# print(find_two_lowest_element(test_data))
+
+test_data = [198, 3, 4, 9, 10, 9, 2]  # [2, 3]
+print(find_two_lowest_element(test_data))
+
+print("This is the solution")
