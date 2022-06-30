@@ -108,7 +108,7 @@ def verify_footer_links_count(context, expected_amount):
 #    element = context.driver.find_element(*HAM_MENU_BTN)
 #    print(element)
 
-
+ # HW 5
 @then('Verify that every product has a name and an image')
 def verify_products_name_img(context):
     all_products = context.driver.find_elements(*SEARCH_RESULT)

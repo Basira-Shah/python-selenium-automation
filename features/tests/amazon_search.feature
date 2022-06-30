@@ -55,7 +55,7 @@ Feature: Tests for Amazon search
   Scenario: User sees correct amount of footer links
     Given Open Amazon page
     Then Verify there are 38 footer links
-
+  # HW 5
   Scenario: Verify that user can see product names and images
     Given Open Amazon page
     When Search for coffee

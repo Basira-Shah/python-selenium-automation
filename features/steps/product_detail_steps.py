@@ -49,7 +49,7 @@ def verify_clicking_colors(context):
 
     assert actual_colors == expected_colors, f'Error! Expected {expected_colors}, but got {actual_colors}'
 
-
+# HW 5
 @then('Verify user can click different colors')
 def verify_clicking_different_colors(context):
     expected_color = ['Army Green', 'Black', 'Blue']
@@ -64,7 +64,7 @@ def verify_clicking_different_colors(context):
 
     assert actual_color == expected_color, f'Eroor! Expected {expected_color}, but got {actual_color}'
 
-
+# HW 5
 @then('Verify user can see women image option')
 def verify_women_image(context):
     context.app.product_page.verify_women_image()
