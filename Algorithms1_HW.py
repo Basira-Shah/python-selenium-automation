@@ -2,6 +2,7 @@
 # when a user enters a number n, find the sum of digits in all numbers from 1 to n.
 # exmple: n = 5. result = 1 + 2 + 3 + 4 + 5 = 15
 
+# HW-1
 def sum_to_n(n):
     final_result = 0
     for x in range(n + 1):
