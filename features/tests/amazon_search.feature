@@ -24,7 +24,7 @@ Feature: Tests for Amazon search
 
 
 
-
+  # Feature for HW 4
   Scenario: User can add a product to the cart
     Given Open Amazon page
     When Search for Tritan Farn to Table Pitcher
