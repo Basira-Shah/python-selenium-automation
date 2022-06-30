@@ -55,3 +55,29 @@ Feature: Tests for Amazon search
   Scenario: User sees correct amount of footer links
     Given Open Amazon page
     Then Verify there are 38 footer links
+
+  Scenario: Verify that user can see product names and images
+    Given Open Amazon page
+    When Search for coffee
+    Then Verify that every product has a name and an image
+
+  Scenario: User can see language options
+    Given Open Amazon page
+    When Hover over language options
+    Then Verify Spanish option present
+
+  Scenario Outline: User can select and search in a department
+    Given Open Amazon page
+    When Select department by <dept_alias>
+    And Search for <search_query>
+    Then Verify <selected_dept> department is selected
+    Examples:
+     |dept_alias     |search_query    |selected_dept     |
+     |stripbooks     |Faust           |books             |
+     |audible        |Alice in        |audible           |
+
+  Scenario: User can select and search computers in a department
+    Given Open Amazon page
+    When Select computers department
+    And Search for macbook
+    Then Verify computers departments is selected
