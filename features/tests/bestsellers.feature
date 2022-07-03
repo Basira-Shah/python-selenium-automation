@@ -6,7 +6,7 @@ Feature: Tests for bestsellers functionality
    Given Open Amazon Bestsellers
     Then Verify there are 5 links
 
-
+  # HW 6
   Scenario: Bestsellers links can be opened
     Given Open Amazon Bestsellers
     Then User can click through top links and verify correct page open

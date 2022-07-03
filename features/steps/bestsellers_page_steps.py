@@ -20,7 +20,7 @@ def verify_links_count(context, expected_links):
     # assert len(actual_links) == int(expected_links), f' Expected {expected_links} links, but got {len(actual_links)}'
     context.app.bestsellers_page.verify_links_present(expected_links)
 
-
+# HW 6
 @then('User can click through top links and verify correct page open')
 def click_thru_top(context):
     top_links = context.driver.find_elements(*TOP_LINKS)
