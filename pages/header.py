@@ -3,7 +3,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from pages.base_page import Page
 from selenium.webdriver.support.ui import Select
 
-
+# HW 7
 class Header(Page):
     SEARCH_INPUT = (By.ID, 'twotabsearchtextbox')
     SEARCH_BTN = (By.ID, 'nav-search-submit-button')

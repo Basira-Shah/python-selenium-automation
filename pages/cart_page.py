@@ -2,7 +2,7 @@ from selenium.webdriver.common.by import By
 
 from pages.base_page import Page
 
-
+# HW 7
 class CartPage(Page):
     EMPTY_CART = (By.CSS_SELECTOR, "h2")
 

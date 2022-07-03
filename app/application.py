@@ -6,6 +6,7 @@ from pages.cart_page import CartPage
 from pages.signin_page import SigninPage
 from pages.product_page import ProductPage
 
+# HW 7
 class Application:
 
     def __init__(self, driver):
