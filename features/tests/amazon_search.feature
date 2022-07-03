@@ -76,6 +76,7 @@ Feature: Tests for Amazon search
      |stripbooks     |Faust           |books             |
      |audible        |Alice in        |audible           |
 
+  # HW 8
   Scenario: User can select and search computers in a department
     Given Open Amazon page
     When Select computers department

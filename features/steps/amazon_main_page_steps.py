@@ -59,7 +59,7 @@ def hover_lang(context):
 def select_dept(context, alias):
     context.app.header.select_dept(alias)
 
-
+# HW 8
 @when('Select computers department')
 def select_com_dept(context):
     context.app.header.select_com_dept()
