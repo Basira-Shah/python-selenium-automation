@@ -1,4 +1,4 @@
-
+#
 # O(n)
 def find_sum(arr):
     if len(arr) == 0:
